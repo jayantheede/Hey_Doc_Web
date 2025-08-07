@@ -1,0 +1,30 @@
+EXACT GIT COMMANDS TO RUN:
+
+1. First, restart your computer to make Git available
+2. Open a NEW Command Prompt or PowerShell
+3. Navigate to your project folder:
+   cd C:\Users\Jayanth\Desktop\aa
+
+4. Run these commands exactly as shown:
+
+echo "# Hey_Doc_Web" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/jayantheede/Hey_Doc_Web.git
+git push -u origin main
+
+5. Then add all your other files:
+git add .
+git commit -m "Add Aastha Homoeo Clinic Hospital Management System"
+git push
+
+That's it! Your code will be on GitHub at:
+https://github.com/jayantheede/Hey_Doc_Web
+
+If you get authentication errors:
+1. Go to GitHub.com and sign in
+2. Go to Settings > Developer settings > Personal access tokens
+3. Generate a new token
+4. Use the token as your password when prompted 
